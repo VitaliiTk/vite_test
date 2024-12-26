@@ -28,6 +28,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  background-image: url(./assets/img/Screenshot_1.jpg);
 }
 
 h1 {
@@ -66,7 +68,6 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
 
 body {
   background-color: red;
