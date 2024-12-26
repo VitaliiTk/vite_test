@@ -68,10 +68,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-body {
-  background-color: red;
-  color: greenyellow;
-  /* Какой то коментарий на ветке test */
-  /* coment from branch test from pohkir */
-}
