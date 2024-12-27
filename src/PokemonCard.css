@@ -4,3 +4,7 @@
   padding: 10px;
   color: #fff;
 }
+
+.PokemonCard img {
+  max-width: 300px;
+}
