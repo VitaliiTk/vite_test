@@ -9,7 +9,8 @@ export default function PokemonCard() {
 
   return (
     <div className="PokemonCard">
-      <h1>Pokemon #{randomNumber}</h1>
+      <h2>Pokemon</h2>
+      <h3>#{randomNumber}</h3>
       <img src={pokemonImage} alt="pokemon" />
       <div className="card">
         <button onClick={() => setReload((prev) => !prev)}>Click</button>
