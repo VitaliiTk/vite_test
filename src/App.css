@@ -5,6 +5,9 @@
   text-align: center;
   background-color: #2f1753;
   border-radius: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .logo {
