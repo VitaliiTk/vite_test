@@ -1,0 +1,15 @@
+.Protiv {
+  z-index: 1;
+}
+
+.Protiv h1 {
+  background-color: #c715c5;
+  padding: 30px;
+  border-radius: 50%;
+  font-size: 10em;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
