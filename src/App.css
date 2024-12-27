@@ -1,12 +1,11 @@
 #root {
-  max-width: 1280px;
+  min-width: 900px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   background-color: #2f1753;
   border-radius: 15px;
   display: flex;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
