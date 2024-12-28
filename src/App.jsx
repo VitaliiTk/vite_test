@@ -14,7 +14,7 @@ function App() {
     <>
       <PokemonCard name={name1} />
       <Protiv />
-      <PokemonCard name={name2}/>
+      <PokemonCard name={name2} />
     </>
   )
 }
