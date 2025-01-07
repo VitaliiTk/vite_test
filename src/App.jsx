@@ -6,8 +6,8 @@ import './App.css'
 import PokemonCard from './PokemonCard'
 import Protiv from './Protiv'
 
-const name1 = 'Pikachu'
-const name2 = 'Charmander'
+const name1 = 'Pokemon 1'
+const name2 = 'Pokemon 2'
 
 function App() {
   return (
