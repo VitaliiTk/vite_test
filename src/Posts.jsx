@@ -22,11 +22,11 @@ function Posts() {
   return (
     <section id="Posts">
       <h2>Posts</h2>
-      <ul>
+      <ol>
         {data.map((item) => (
           <li key={item.id}>{item.title}</li>
         ))}
-      </ul>
+      </ol>
     </section>
   )
 }
