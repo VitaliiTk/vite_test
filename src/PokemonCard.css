@@ -9,3 +9,7 @@
 .PokemonCard img {
   max-width: 300px;
 }
+
+.pokemon_img {
+  user-select: none;
+}

@@ -1,13 +1,20 @@
 #root {
   min-width: 900px;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 2rem;
   text-align: center;
   background-color: #2f1753;
   border-radius: 15px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+#pokemons {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .logo {

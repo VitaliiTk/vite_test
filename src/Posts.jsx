@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
+import './Posts.css'
+
 function Posts() {
   const [data, setData] = useState([])
   const [loading, setLoading] = useState(true)
@@ -18,11 +20,14 @@ function Posts() {
   if (loading) return <p>Загрузка...</p>
 
   return (
-    <ul>
-      {data.map((item) => (
-        <li key={item.id}>{item.title}</li>
-      ))}
-    </ul>
+    <section id="Posts">
+      <h2>Posts</h2>
+      <ul>
+        {data.map((item) => (
+          <li key={item.id}>{item.title}</li>
+        ))}
+      </ul>
+    </section>
   )
 }
 

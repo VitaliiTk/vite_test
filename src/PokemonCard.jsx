@@ -11,7 +11,7 @@ export default function PokemonCard({ name }) {
     <div className="PokemonCard">
       <h2>{name}</h2>
       <h3>#{randomNumber}</h3>
-      <img src={pokemonImage} alt="pokemon" />
+      <img className="pokemon_img" src={pokemonImage} alt="pokemon" />
       <div className="card">
         <button onClick={() => setReload((prev) => !prev)}>Click</button>
       </div>
